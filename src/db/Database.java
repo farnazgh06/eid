@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class Database {
     private static ArrayList<Entity> entities = new ArrayList<>();
     private static int IdCounter = 1;
-    private static HashMap<Integer, Validator> validators;
+    private static HashMap<Integer, Validator> validators = new HashMap<>();
 
     public static void add (Entity e) throws InvalidEntityException {
         Validator validator = validators.get(e.getEntityCode());
