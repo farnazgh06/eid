@@ -1,5 +1,5 @@
+<<<<<<< HEAD
 
-import db.Database;
 import todo.entity.Step;
 import todo.entity.Task;
 
@@ -212,3 +212,10 @@ public class Main {
 
 
 
+=======
+import db.Database;
+import db.exception.InvalidEntityException;
+import example.Human;
+import example.HumanValidator;
+
+>>>>>>> ef7b44aa96882c9991efda785a587456398bbc4e
