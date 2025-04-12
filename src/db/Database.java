@@ -1,5 +1,6 @@
 package db;
 
+import db.exception.EntityNotFoundException;
 import db.exception.InvalidEntityException;
 
 import java.util.ArrayList;
